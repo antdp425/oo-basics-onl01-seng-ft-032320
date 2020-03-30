@@ -4,7 +4,7 @@ def initialize(title)
   @title = title
 end
 
-  def turn_page
+  def turn_page(page)
     @page + 1
   end
 
